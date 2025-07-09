@@ -14,7 +14,7 @@ export const Appbar = () => {
           {localStorage.getItem("firstname")}
         </div>
       </div>
-      <div className="flex flex-col justify-center h-full mr-10">PayTM App</div>
+      <div className="flex flex-col justify-center h-full mr-10">Tranzure</div>
       <div className="flex flex-col justify-center mx-2 cursor-pointer mr-11">
         <button
           className="bg-slate-600 text-white p-1.5 rounded-md mr-4 "
