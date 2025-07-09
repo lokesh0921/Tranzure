@@ -46,7 +46,7 @@ export const SendMoney = () => {
               <button
                 onClick={async () => {
                   axios.post(
-                    "http://localhost:5001/api/v1/account/transfer",
+                    "https://tranzure.onrender.com/api/v1/account/transfer",
                     {
                       to: id,
                       amount,

@@ -53,7 +53,7 @@ export const Balance = () => {
     // Only fetch balance if we're on the dashboard route
     if (location.pathname === "/dashboard") {
       axios
-        .get("http://localhost:5001/api/v1/account/balance", {
+        .get("https://tranzure.onrender.com/api/v1/account/balance", {
           headers: {
             Authorization: "Bearer " + localStorage.getItem("token"),
           },

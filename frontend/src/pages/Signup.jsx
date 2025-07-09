@@ -58,7 +58,7 @@ export const Signup = () => {
             <Button
               onClick={async () => {
                 const response = await axios.post(
-                  "http://localhost:5001/api/v1/user/signup",
+                  "https://tranzure.onrender.com/api/v1/user/signup",
                   {
                     firstname: firstName,
                     lastname: lastName,
